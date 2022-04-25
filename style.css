@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :root{
+    color-scheme: dark light;
+} */
+/* or the meta tag */
+
+h1,h2,h3{
+    color:hsl(255,50%,30%);
+}
+@media (prefers-color-scheme: dark){
+    h1,h2,h3{
+        color:hsl(255,50%,80%);
+    }
+}
